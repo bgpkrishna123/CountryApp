@@ -47,7 +47,7 @@ function CountryCard({ item }) {
         <Text mb="4">{filteredCountry.languages}</Text>
       </Box>
 
-      <Button colorScheme="teal" onClick={() => handelClick(item)}>
+      <Button colorScheme="#FF6B6B" onClick={() => handelClick(item)}>
         Add To Favorite
       </Button>
     </Box>
