@@ -45,7 +45,7 @@ const Register = () => {
         title: "Username, Email and Password Required",
         status: "error",
         duration: 4000,
-        position: "top-right",
+        position: "bottom",
         isClosable: true,
       });
       return;
@@ -67,7 +67,7 @@ const Register = () => {
         title: `${result.message}`,
         status: "success",
         duration: 4000,
-        position: "top-right",
+        position: "bottom",
         isClosable: true,
       });
     } catch (error) {
@@ -75,7 +75,7 @@ const Register = () => {
         title: `${error.message}`,
         status: "error",
         duration: 4000,
-        position: "top-right",
+        position: "bottom",
         isClosable: true,
       });
     }
